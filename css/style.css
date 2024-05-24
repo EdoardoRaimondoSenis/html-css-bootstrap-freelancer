@@ -21,6 +21,7 @@ header {
 
 .container {
     margin: 0 20% auto;
+    padding: 10vh 0;
 }
 
 .start {
@@ -37,3 +38,12 @@ header {
 .col-3-folio {
     border-radius: 10px;
 }
+
+#firstfooter {
+    background-color: #3a546d;
+}
+
+#lastfooter {
+    background-color: #2c3e50;
+}
+

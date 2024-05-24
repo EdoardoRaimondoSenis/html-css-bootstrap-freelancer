@@ -20,42 +20,59 @@
 .col-1 {
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
-    height: 30px;
+    min-height: 30px;
 }
 
 .col-2 {
     flex-basis: calc((100% / 12) * 2);
     max-width: calc((100% / 12) * 2);
-    height: 30px;
+    min-height: 30px;
 }
 
 .col-3 {
     flex-basis: calc((100% / 12) * 3);
     max-width: calc((100% / 12) * 3);
-    height: 30px;
+    min-height: 30px;
 }
 
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
     max-width: calc((100% / 12) * 4);
-    height: 30px;
+    min-height: 30px;
 }
 
 .col-5 {
     flex-basis: calc((100% / 12) * 5);
     max-width: calc((100% / 12) * 5);
-    height: 40px;
+    min-height: 30px;
+}
+
+.col-8 {
+    flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
+    min-height: 30px;
 }
 
 .col-2-img {
     flex-basis: calc((100% / 12) * 2);
     max-width: calc((100% / 12) * 2);
-    height: 150px;
+    min-height: 150px;
 }
 
 .col-3-folio {
     flex-basis: calc((100% / 12) * 3);
     max-width: calc((100% / 12) * 3);
-    height: 170px;
+    min-height: 170px;
 }
 
+.col-3-footer {
+    flex-basis: calc((100% / 12) * 3);
+    max-width: calc((100% / 12) * 3);
+    min-height: 100px;
+}
+
+.col-8-massage {
+    flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
+    min-height: 120px;
+}
