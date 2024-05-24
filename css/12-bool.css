@@ -2,12 +2,19 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .header {
     justify-content: space-between;
     align-items: center;
     height: 50px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .col-3 {
@@ -20,4 +27,16 @@
     flex-basis: calc((100% / 12) * 4);
     max-width: calc((100% / 12) * 4);
     height: 30px;
+}
+
+.col-5 {
+    flex-basis: calc((100% / 12) * 5);
+    max-width: calc((100% / 12) * 5);
+    height: 40px;
+}
+
+.col-2-img {
+    flex-basis: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
+    height: 150px;
 }

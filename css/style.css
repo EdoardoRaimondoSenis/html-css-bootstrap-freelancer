@@ -16,9 +16,19 @@ header {
     margin: 0 20% auto;
 }
 
+.start {
+    background-color: #1abc9c;
+    margin: 0 0;
+}
+
+.avatar {
+    padding: 10vh 0 5vh 0;
+}
+
 [class*="col-"] {
     color: white;
     text-decoration: none;
     /* debug */
     background-color: black;
+    margin: 1vh 0;
 }
