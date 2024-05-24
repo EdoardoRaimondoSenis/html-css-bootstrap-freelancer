@@ -24,6 +24,10 @@ header {
     padding: 10vh 0;
 }
 
+.header {
+    padding: 0;
+}
+
 .start {
     background-color: #1abc9c;
     margin: 0 0;
@@ -45,5 +49,9 @@ header {
 
 #lastfooter {
     background-color: #2c3e50;
+}
+
+.downfooter {
+    padding: 5vh;
 }
 
